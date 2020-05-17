@@ -15,7 +15,7 @@ class School
     if !roster[@grade]
       roster[@grade]
     else 
-      roster[@grade] << @student
+      roster[@grade] << @name
     end
     # binding.pry
   end
