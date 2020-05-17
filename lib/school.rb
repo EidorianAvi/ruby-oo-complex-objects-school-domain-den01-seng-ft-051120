@@ -12,6 +12,9 @@ class School
   
   def add_student name, grade
     roster[@grade] = []
+    roster[@grade].each do |student|
+      roster[@grade] << @student
+    end
     binding.pry
   end
   
