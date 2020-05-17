@@ -9,14 +9,6 @@ class School
   end
   
   def add_student name, grade
-    @roster[@grade] = []
-    @roster[@grade].each do |student|
-      if !@roster[@grade]
-        @roster[@grade] = []
-      else 
-        @roster[@grade] << @student
-      end
-    end 
   end
   
  
