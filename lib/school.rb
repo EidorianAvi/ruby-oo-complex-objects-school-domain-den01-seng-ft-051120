@@ -14,6 +14,8 @@ class School
     roster[grade] = []
     if !roster[@grade]
       roster[@grade]
+    else 
+      roster[@grade] << @student
     end
     roster[@grade] << @student 
     # binding.pry
