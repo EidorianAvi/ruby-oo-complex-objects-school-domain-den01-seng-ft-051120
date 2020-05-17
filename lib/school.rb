@@ -19,11 +19,7 @@ class School
   end
   
   def grade grade
-    @roster.select do |grades, names|
-      if grades == grade
-        return names
-      end
-    end
+    @roste[grade]
   end
   
   def sort
