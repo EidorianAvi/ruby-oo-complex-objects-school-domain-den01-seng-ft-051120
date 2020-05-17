@@ -11,13 +11,11 @@ class School
   end
   
   def add_student name, grad
-    roster[grade] = []
-    if roster[grade] != nil 
-      roster[grade] << name
-    else 
-      roster[grade] = name
+      if @roster[grade] != nil
+      @roster[grade] << name
+    else
+      @roster[grade] = [name]
     end
-    # binding.pry
   end
   
  
