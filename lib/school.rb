@@ -5,9 +5,9 @@ class School
 
   attr_accessor :name, :grade, :roster
 
-  def initialize name, roster = {}
+  def initialize name
     @name = name
-    @roster = roster
+    @roster = {}
   end
   
   def add_student name, grade
