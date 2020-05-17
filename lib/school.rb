@@ -21,7 +21,7 @@ class School
   def grade grade
     @roster.select do |grade, name|
       @grade == grade
-      binding.pry
+      # binding.pry
     end
   end
   
