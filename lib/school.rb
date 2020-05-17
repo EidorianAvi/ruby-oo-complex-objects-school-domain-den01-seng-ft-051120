@@ -20,7 +20,9 @@ class School
   
   def grade grade
     @roster.select do |keys, values|
-      keys == grade
+      if keys == grade
+        return values
+      end
       # binding.pry
     end
   end
