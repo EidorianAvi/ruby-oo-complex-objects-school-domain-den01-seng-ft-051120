@@ -15,7 +15,7 @@ class School
     roster[@grade].each do |student|
       roster[@grade] << @student
     end
-
+    # binding.pry
   end
   
  
