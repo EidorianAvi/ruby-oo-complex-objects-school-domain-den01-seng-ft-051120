@@ -13,7 +13,7 @@ class School
   def add_student name, grade
     roster[grade] = []
     if !roster[@grade]
-      roster[@grade] = @student 
+      roster[@grade] << @student 
     end
     # binding.pry
   end
