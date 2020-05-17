@@ -11,9 +11,9 @@ class School
   end
   
   def add_student name, grade
-    roster[@grade] = []
-    roster[@grade].each do |student|
-      roster[@grade] << @student
+    roster[grade] = []
+    if !roster[@grade]
+      roster[@grade] = @student 
     end
     # binding.pry
   end
