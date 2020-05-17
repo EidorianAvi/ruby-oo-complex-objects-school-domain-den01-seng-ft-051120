@@ -18,4 +18,10 @@ class School
     end
   end
   
+  def grade grade
+    @roster.select do |grade|
+      @grade == grade
+    end
+  end
+  
 end
